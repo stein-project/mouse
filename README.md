@@ -10,21 +10,21 @@ or a chest to transfer stack after stack.
 
 ## Download
 
-Mouse is a third-party mod: it is not on the Stein Client's official list. In the
-[Stein Client](https://github.com/Stein-Project/stein-client/releases/latest), add its index under third-party mods
+Mouse is an official extra: it is made by the Stein Project, but it does not come with the Stein Client because it
+is for specific servers. In the [Stein Client](https://stein-project.github.io/client/), add its index under Additions
 and the client installs and updates it for you:
 
 ```
-https://github.com/brenoxavier/SteinMouse/releases/latest/download/steinmods.json
+https://github.com/Stein-Project/mouse/releases/latest/download/steinmods.json
 ```
 
-By hand: download `Mouse.steinmod` from the [latest release](https://github.com/brenoxavier/SteinMouse/releases/latest),
+By hand: download `Mouse.steinmod` from the [latest release](https://github.com/Stein-Project/mouse/releases/latest),
 put it in `.minecraft/mods` and play with the **Stein Loader** profile.
 
 ## Building
 
 You need **JDK 25 or newer**.
-The [Stein SDK](https://github.com/Stein-Project/stein-sdk) Gradle plugin prepares Minecraft 1.8.9 for compiling the
+The [Stein SDK](https://github.com/Stein-Project/sdk) Gradle plugin prepares Minecraft 1.8.9 for compiling the
 first time, from your own installation or from Mojang.
 
 ```sh
